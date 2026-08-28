@@ -5,13 +5,13 @@ A collection of basic Linux/Kali commands I practiced, saved as PowerShell (.ps1
 
 ## Files
 
-### Commands/Basic_Command.ps1
+### basic-command.md
 Basic commands to list files and check the current directory:
 - `ls` - list files and directories
 - `ls -la` - show hidden files with details
 - `pwd` - show current directory path
 
-### Commands/Viewing_Updating_file_content....ps1
+### Viewing-Updating-file-content.md
 Commands to create, view, and read file content:
 - `echo "text" > file.txt` - write text to a file (replaces content)
 - `echo "text" >> file.txt` - add text to a file (without deleting existing content)
@@ -22,7 +22,7 @@ Commands to create, view, and read file content:
 - `tail -n5 file.txt` - show last 5 lines
 - `tail -f file.txt` - live monitor a file for new content being added
 
-### Commands/file_folder_operation.ps1
+### file-folder-operation.md
 Commands to manage files and folders:
 - `mkdir foldername` - create a new folder
 - `touch file.txt` - create a new empty file
